@@ -25,4 +25,28 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+
+    // net work ------begin
+
+    // RxJava2
+    implementation 'io.reactivex.rxjava2:rxjava:2.0.1'
+    // RxAndroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    // retrofit2
+    implementation 'com.squareup.retrofit2:retrofit:2.2.0'
+    // RxJava2 Adapter --- 衔接 Retrofit2 & RxJava2
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    // Retrofit2 Gson converter --- 支持gson解析
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    // okhttp3
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    //非必要依赖， log依赖，如果需要打印OkHttpLog需要添加
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+
+    // net work ------end
+
+    // gson
+    implementation 'com.google.code.gson:gson:2.8.0'
+
 }
